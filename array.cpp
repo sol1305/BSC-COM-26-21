@@ -15,7 +15,11 @@ arrayName [7]= 'B179';
    
    for (int a = 0; a < 8; a++)
     if(arrayName=0 || arrayName=4 || arrayName=7){
-        cout << &arrayName;
+        cout << arrayName << "starts with B" << endl;
+       
     }
+   else {
+      cout << "the array content does not start with letter B";
+   }
 return 0;
 }
