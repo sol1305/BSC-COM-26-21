@@ -19,7 +19,7 @@ arrayName [7]= 'B179';
        
     }
    else {
-      cout << "the array content does not start with letter B";
+      cout << "the array content does not starts with letter B";
    }
 return 0;
 }
