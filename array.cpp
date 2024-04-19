@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
    
-    string arrayName []= new arrayName[7];
+    string arrayName []= new arrayName[8];
     
 arrayName [0]= 'B123';
 arrayName [1]= 'C234';
