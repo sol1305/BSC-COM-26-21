@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
    
-    string arrayName []= new arrayName[7];
+    string arrayName []= new arrayName[8];
     
 arrayName [0]= 'B123';
 arrayName [1]= 'C234';
@@ -15,7 +15,11 @@ arrayName [7]= 'B179';
    
    for (int a = 0; a < 8; a++)
     if(arrayName=0 || arrayName=4 || arrayName=7){
-        cout << &arrayName;
+        cout << arrayName << "starts with B" << endl;
+       
     }
+   else {
+      cout << "the array content does not starts with letter B";
+   }
 return 0;
 }
