@@ -1,10 +1,10 @@
 #pragma once
 
-Class polygon{
-    protected:
-
-    int  mWidth;
+class Polygon {
+    protected :
+    int mWidth ;
     int mHeight;
-    public:
-    void SetValues(int width, int height);
+  public :
+    void SetValues (int mWidth, int mHeight);  
+
 };

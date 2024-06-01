@@ -1,7 +1,8 @@
-#pragma once
-#include "polygon.h"
+# pragma once
+#include "Polygon.h"
 
-void polygon :: SetValues(int width, int height){
+void Polygon :: SetValues (int width, int height)
+{
     mWidth = width;
     mHeight = height;
 }
